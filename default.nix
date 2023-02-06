@@ -1,5 +1,5 @@
 {stdenv, fetchurl }:
-// by mrtuxa
+
 stdenv.mkDerivation {
   name = "sozi";
   version = "222.3.25";
