@@ -7,6 +7,7 @@ on:
   pull_request_target:
     branches-ignore:
       - 'release-**'
+  workflow_dispatch:
 
 jobs:
   tests:
